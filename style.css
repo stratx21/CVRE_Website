@@ -110,6 +110,10 @@ section > section{
     
 }
 
+.info a.title{
+    color:white;
+}
+
 .footer{
     background-color: #232528;
     width: 100%;
@@ -136,4 +140,8 @@ section > section{
 .footer a.link{
     color: seagreen;
     text-align:left;
+}
+
+.footer a.share{
+    color:aqua;
 }
