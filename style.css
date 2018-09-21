@@ -6,13 +6,26 @@ body{
 }
 
 p{
-    color: pink;
+    color: seagreen;
+}
+
+section{
+    padding:10px;
+    overflow:hidden;
+}
+
+section > section{
+    float: left;
+}
+
+.picture_display{
+    height: 50%;
 }
 
 .toprow {
     background-color: #333;
     overflow: hidden;
-    position: sticky;
+    position: relative;
     
 }
 
@@ -95,4 +108,32 @@ p{
     font-size: 25px;
     color: darkgray;
     
+}
+
+.footer{
+    background-color: #232528;
+    width: 100%;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+    font: Monospace;
+    white-space: nowrap;
+    font-size: 30px;
+    color:darkgray;
+}
+
+.footer a{
+    text-align: center;
+}
+
+.footer a.title{
+    text-align:right;
+    color:white;
+    padding-left:25%;
+    padding-right:400px;
+}
+
+.footer a.link{
+    color: seagreen;
+    text-align:left;
 }
