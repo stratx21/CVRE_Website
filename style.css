@@ -43,10 +43,10 @@ p{
 .header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(images/CVRE.png);
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-size: contain fixed;
     background-color:black;
-    height:1000px;
+    height:900px;
     
     font: Monospace;
     text-align:center;
@@ -83,6 +83,7 @@ p{
 
 .info{
     background-color: #232528;
+    top:0px;
     width: 100%;
     height: 100%;
     position: relative;
