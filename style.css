@@ -16,6 +16,17 @@ section{
 
 section > section{
     float: left;
+    overflow:hidden;
+    position:relative;
+    word-wrap:break-word;
+}
+
+#section-right{
+    float:right;
+    margin-left:30px;
+}
+#section-left{
+    float:left;
 }
 
 .picture_display{
@@ -112,6 +123,34 @@ section > section{
 
 .info a.title{
     color:white;
+}
+
+.info_2section{
+    background-color: #232528;
+    width: 100%;
+    position:relative;
+    display:inline-block;
+    overflow:hidden;
+    font: Monospace;
+    white-space: nowrap;
+    font-size: 35px;
+    color:darkgray;
+}
+
+.info_2section a{
+    text-align:center;
+}
+
+.info_2section a.title{
+    color:white;
+    padding-left:25%;
+    padding-right:400px;
+}
+
+.info_2section a.information{
+    white-space: initial;
+    word-wrap: break-word;
+    text-align:left;
 }
 
 .footer{
